@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "moduleResolution": "node16",
+      "target": "es5",
+      "lib": [
+        "es5", "dom"],
+      "types": ["cypress", "node"]
+    },
+    "include": [
+        "**/*.ts", "cypress/e2e/amazon/amazon.spec.cy.ts"]
+  }
