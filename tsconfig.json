@@ -8,5 +8,5 @@
       "types": ["cypress", "node"]
     },
     "include": [
-        "**/*.ts", "cypress/e2e/amazon/amazon.spec.cy.ts"]
+        "**/*.ts", "cypress/e2e/amazon/amazon.spec.cy.js", "cypress/support/commonCommands/common.actions.js", "cypress/support/commands.js", "cypress/support/e2e.ts"]
   }
